@@ -1,6 +1,5 @@
 body {
-  margin: 8px;
-
+  margin: 8px;  
 }
 
 #mainHeading {
@@ -9,4 +8,16 @@ body {
 
 p.funParagraph {
   color: green;
+}
+
+main {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+h4 {
+  color: #999999; 
 }
