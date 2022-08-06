@@ -1,9 +1,5 @@
 html {
-	font-family: Josefin Sans;
-}
-
-body {
-	margin: 8px;
+	font-family: Arial, Helvetica, sans-serif;
 	background-color: #dddddd;
 	--primary-color: #4875c7;
 	--dark-primary-color: #273e69;
@@ -15,6 +11,10 @@ body {
 	--muted-white: #ccccee99;
 	--light-shadow: #00000015;
 	--dark-shadow: #00000065;
+}
+
+body {
+	margin: 8px;
 }
 
 #mainHeading {
@@ -46,9 +46,8 @@ li:hover {
 
 li > a {
 	color: var(--dark-primary-color);
-  font-size: 1.25em;
-  vertical-align: middle;
-}
+	font-size: 1.25em;
+	vertical-align: middle;
 }
 
 li:hover > a {
@@ -66,7 +65,7 @@ h2 {
 
 h1,
 h2 {
-	font-family: Amatic SC;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1,
@@ -150,7 +149,7 @@ section > p {
 
 footer {
 	text-align: center;
-	margin-bottom: -8px;
+	margin-bottom: -1.5em;
 	box-shadow: 0 0 8px 6px var(--dark-shadow);
 	border-top: solid 1px var(--dark-primary-color);
 }
